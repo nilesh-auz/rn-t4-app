@@ -13,8 +13,14 @@
     "build:android:preview": "eas build --platform android --profile preview --local",
     "build:ios": " eas build --platform ios --profile production --local",
     "build:android": "eas build --platform android --profile production --local",
+    "build:dev:ios": " eas build --platform ios --profile development",
+    "build:dev:android": "eas build --platform android --profile development",
+    "build:dev:ios:local": " eas build --platform ios --profile development --local",
+    "build:dev:android:local": "eas build --platform android --profile development --local",
+    "build:dev:ios:run": " expo run:ios --configuration development",
+    "build:dev:android:run": " expo run:android --variant development",
     "clean": "git clean -xdf .expo node_modules ios android",
-    "eas-build-pre-install": "npm install -g bun@8.6.12"
+    "eas-build-pre-install": "npm install -g bun"
   },
   "dependencies": {
     "@babel/runtime": "^7.23.2",

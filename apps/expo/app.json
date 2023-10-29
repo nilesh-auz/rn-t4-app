@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "t4-app",
-    "slug": "t4-app",
+    "name": "rn-t4-app",
+    "slug": "rn-t4-app",
     "scheme": "t4",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -29,10 +29,10 @@
     },
     "extra": {
       "eas": {
-        "projectId": "85fc6ccd-0ce1-4e4d-804c-b15df989f97e"
+        "projectId": "8aacffc2-2df8-47f9-af6d-ee783515b5fa"
       }
     },
-    "owner": "timothymiller",
+    "owner": "nilesh936",
     "plugins": ["expo-router"],
     "experiments": {
       "tsconfigPaths": true,
